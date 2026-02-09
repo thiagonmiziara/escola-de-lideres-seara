@@ -6,7 +6,7 @@ Uma landing page moderna e responsiva para a Escola de Líderes 2026, desenvolvi
 
 A Escola de Líderes é um programa de transformação pessoal e desenvolvimento de liderança com duração de 12 semanas. Esta landing page apresenta:
 
-- **Propósito**: Transformação através de mentoria com o Apóstolo Erich GedBarth
+- **Propósito**: Transformação através de mentoria com o Apóstolo Erich Gebhardt
 - **Duração**: 21/03 a 13/06 de 2026
 - **Formato**: Aulas aos sábados, das 14h às 17h
 - **Investimento**: R$ 250,00 (com opções de pagamento em 6x ou PIX com desconto de 5%)
@@ -50,6 +50,7 @@ public/
 ## 🎨 Design System
 
 ### Paleta de Cores
+
 - **Background**: #1A1A1A (Cinza muito escuro)
 - **Foreground**: #FFFFFF (Branco)
 - **Primary**: #9AEC4C (Verde claro)
@@ -58,11 +59,13 @@ public/
 - **Muted**: #4D4D4D (Cinza neutro)
 
 ### Componentes CSS
+
 As cores estão definidas como variáveis CSS em `src/index.css` e podem ser facilmente customizadas.
 
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 - Node.js 16+
 - PNPM (recomendado) ou NPM
 
@@ -98,6 +101,7 @@ pnpm preview
 ## 📱 Responsividade
 
 O projeto é totalmente responsivo e otimizado para:
+
 - **Mobile** (< 640px)
 - **Tablet** (640px - 1024px)
 - **Desktop** (> 1024px)
@@ -116,7 +120,7 @@ O projeto é totalmente responsivo e otimizado para:
 ## 🔗 Links Importantes
 
 - **Pagamento**: https://pag.getnet.com.br/zb8xbEjIs/resume
-- **Instagram**: https://www.instagram.com/searadedeus/?hl=pt
+- **Instagram**: https://www.instagram.com/ap.erichgebhardt/
 - **Telefone**: 34 99115-2805
 
 ## 📝 Scripts Disponíveis
@@ -154,6 +158,7 @@ Este projeto é privado e propriedade da Escola de Líderes.
 ## 👤 Contato
 
 Para dúvidas sobre o projeto, entre em contato através do:
+
 - 📞 Telefone: 34 99115-2805
 - 📱 Instagram: @searadedeus
 - 📧 Email: (a adicionar)

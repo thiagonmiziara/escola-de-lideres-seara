@@ -5,7 +5,7 @@ import { Check, CreditCard, Smartphone } from 'lucide-react';
 export default function InvestmentSection() {
   const benefits = [
     '12 semanas de conteúdo transformador',
-    'Mentoria com o Apóstolo Erich GedBarth',
+    'Mentoria com o Apóstolo Erich Gebhardt',
     'Material de apoio exclusivo',
     'Certificado de conclusão',
     'Acesso à comunidade de líderes',
