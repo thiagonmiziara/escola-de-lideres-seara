@@ -120,7 +120,7 @@ O projeto é totalmente responsivo e otimizado para:
 ## 🔗 Links Importantes
 
 - **Pagamento**: https://pag.getnet.com.br/zb8xbEjIs/resume
-- **Instagram**: https://www.instagram.com/ap.erichgebhardt/
+- **Instagram**: https://www.instagram.com/ap.erichgebhardt?igsh=MXVvdzl5Zjk3amZmdQ==
 - **Telefone**: 34 99115-2805
 
 ## 📝 Scripts Disponíveis
