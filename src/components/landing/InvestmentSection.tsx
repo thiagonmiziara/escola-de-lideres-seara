@@ -13,7 +13,10 @@ export default function InvestmentSection() {
   ];
 
   return (
-    <section className='w-full py-20 md:py-32 bg-card text-foreground relative overflow-hidden'>
+    <section
+      id='investimento'
+      className='w-full py-20 md:py-32 bg-card text-foreground relative overflow-hidden scroll-mt-[40vh]'
+    >
       {/* Background decoration */}
       <div className='absolute inset-0 opacity-5'>
         <div className='absolute top-0 right-0 w-96 h-96 bg-primary rounded-full filter blur-3xl'></div>

@@ -3,6 +3,13 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock } from 'lucide-react';
 
 export default function HeroSection() {
+  const handleScrollToInvestment = () => {
+    const element = document.getElementById('investimento');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+    }
+  };
+
   return (
     <section className='relative w-full min-h-screen bg-background flex items-center justify-center overflow-hidden'>
       {/* Decorative elements */}
@@ -71,18 +78,13 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.6 }}
             className='pt-8'
           >
-            <a
-              href='https://pag.getnet.com.br/zb8xbEjIs/resume'
-              target='_blank'
-              rel='noopener noreferrer'
+            <Button
+              onClick={handleScrollToInvestment}
+              size='lg'
+              className='bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-bold text-lg h-14 px-12 rounded-full shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105 cursor-pointer'
             >
-              <Button
-                size='lg'
-                className='bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-bold text-lg h-14 px-12 rounded-full shadow-2xl hover:shadow-primary/50 transition-all duration-300 transform hover:scale-105'
-              >
-                Quero me inscrever →
-              </Button>
-            </a>
+              Quero me inscrever →
+            </Button>
           </motion.div>
 
           {/* Date and schedule info */}
@@ -109,7 +111,7 @@ export default function HeroSection() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className='absolute bottom-8 left-1/2 transform -translate-x-1/2'
+        className='hidden md:block absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20'
       >
         <div className='w-6 h-10 border-2 border-muted rounded-full flex justify-center pt-2'>
           <motion.div
