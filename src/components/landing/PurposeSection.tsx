@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Heart, BookOpen, Users, Sparkles } from 'lucide-react';
+import sala from '@/assets/sala.jpeg';
 
 export default function PurposeSection() {
   const purposes = [
@@ -93,6 +94,22 @@ export default function PurposeSection() {
             );
           })}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className='mb-16'
+        >
+          <div className='bg-card rounded-3xl overflow-hidden border border-border h-[400px] md:h-[500px]'>
+            <img
+              src={sala}
+              alt='Ambiente da Escola de Líderes'
+              className='w-full h-full object-cover'
+            />
+          </div>
+        </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 30 }}

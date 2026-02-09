@@ -1,7 +1,5 @@
 import { motion } from 'framer-motion';
-import mentor1 from '@/assets/mentor1.jpeg';
 import mentor2 from '@/assets/mentor2.jpeg';
-import mentor3 from '@/assets/mentor3.jpeg';
 
 export default function MentorSection() {
   return (
@@ -52,28 +50,12 @@ export default function MentorSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className='grid grid-cols-2 gap-4'
+            className='flex justify-center items-center'
           >
-            <div className='col-span-2 aspect-video bg-gradient-to-br from-muted to-card rounded-2xl shadow-2xl overflow-hidden'>
+            <div className='w-full max-w-2xl aspect-[4/3] bg-gradient-to-br from-muted to-card rounded-2xl shadow-2xl overflow-hidden'>
               <img
                 src={mentor2}
                 alt='Apóstolo Erich Gebhardt'
-                className='w-full h-full object-cover'
-              />
-            </div>
-
-            <div className='aspect-square bg-gradient-to-br from-card to-muted rounded-2xl shadow-xl overflow-hidden'>
-              <img
-                src={mentor3}
-                alt='Mentoria Escola de Líderes'
-                className='w-full h-full object-cover'
-              />
-            </div>
-
-            <div className='aspect-square bg-gradient-to-br from-muted to-card rounded-2xl shadow-xl overflow-hidden'>
-              <img
-                src={mentor1}
-                alt='Liderança e Desenvolvimento'
                 className='w-full h-full object-cover'
               />
             </div>
